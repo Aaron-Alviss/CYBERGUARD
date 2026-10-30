@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CYBERGUARD SCAN aide les utilisateurs en RDC à reconnaître les liens suspects, éviter les arnaques numériques et sensibiliser à la cybersécurité."
+    />
+    <title>CYBERGUARD SCAN | Vérifions avant de cliquer !</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a href="#accueil" class="brand" aria-label="Accueil CYBERGUARD SCAN">
+          <span class="brand-mark">C</span>
+          <span>
+            <strong>CYBERGUARD</strong>
+            <small>SCAN</small>
+          </span>
+        </a>
+
+        <nav class="main-nav" aria-label="Navigation principale">
+          <a href="#arnaques">Arnaques</a>
+          <a href="#analyseur">Analyseur</a>
+          <a href="#reflexes">Réflexes</a>
+          <a href="#institutions">Institutions</a>
+          <a href="#signaler">Signaler</a>
+        </nav>
+
+        <a href="#analyseur" class="btn btn-primary nav-cta">Analyser un lien</a>
+
+        <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="accueil" class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow">
+              <span class="dot"></span>
+              Sensibilisation numérique • RDC
+            </div>
+            <h1>Un simple clic peut vous faire perdre votre argent ou exposer vos données personnelles.</h1>
+            <p class="lead">
+              CYBERGUARD SCAN vous aide à identifier les liens suspects et à reconnaître les techniques utilisées par les cybercriminels.
+            </p>
+
+            <div class="cta-row">
+              <a href="#analyseur" class="btn btn-primary">Analyser un lien</a>
+              <a href="#reflexes" class="btn btn-secondary">Apprendre à se protéger</a>
+            </div>
+
+            <div class="mini-stat">
+              <strong>Prototype</strong>
+              <span>Donnée fictive de démonstration</span>
+              <div class="stat-pill">
+                <span>87%</span>
+                <small>des liens suspects imitent des services connus</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="image-card">
+              <img
+                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80"
+                alt="Jeune Congolais utilisant un smartphone devant un message suspect sur son écran"
+                onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=1200&q=80';"
+              />
+              <div class="floating-card danger">
+                <span class="badge">⚠️ Lien suspect</span>
+                <p>Message demandé un paiement rapide.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="arnaques" class="section section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow accent">La réalité numérique autour de nous</span>
+            <h2>Les arnaques numériques prennent plusieurs formes. Apprenons à les reconnaître.</h2>
+          </div>
+
+          <div class="scam-grid">
+            <article class="scam-card reveal">
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+                  alt="Étudiant congolais utilisant son smartphone pour un faux paiement universitaire"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=900&q=80';"
+                />
+                <figcaption>Source: Unsplash</figcaption>
+              </figure>
+              <div class="card-body">
+                <h3>Faux paiement universitaire</h3>
+                <p>
+                  Un individu envoie un lien qui ressemble au portail de paiement d’une université et demande à l’étudiant de payer des frais ou de communiquer ses identifiants.
+                </p>
+                <div class="tip-box">
+                  <strong>Conseil</strong>
+                  <span>Vérifiez toujours le domaine auprès de votre établissement avant de payer.</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="scam-card reveal">
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=900&q=80"
+                  alt="Jeune Congolais regardant un message annonçant un gain d'argent"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80';"
+                />
+                <figcaption>Source: Unsplash</figcaption>
+              </figure>
+              <div class="card-body">
+                <h3>Faux gains et cadeaux</h3>
+                <p>
+                  Un message annonce un gain important et demande de payer des frais pour récupérer le cadeau.
+                </p>
+                <div class="tip-box">
+                  <strong>Conseil</strong>
+                  <span>Ne payez jamais pour récupérer un prix dont vous ne connaissez pas l’origine. Vérifiez directement auprès de l’organisateur.</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="scam-card reveal">
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=900&q=80"
+                  alt="Commerçant ou particulier effectuant une transaction Mobile Money sur téléphone"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80';"
+                />
+                <figcaption>Source: Unsplash</figcaption>
+              </figure>
+              <div class="card-body">
+                <h3>Arnaques Mobile Money</h3>
+                <p>
+                  Un escroc envoie un faux SMS de confirmation ou prétend avoir effectué un transfert.
+                </p>
+                <div class="tip-box">
+                  <strong>Conseil</strong>
+                  <span>Vérifiez toujours votre solde et l’historique de vos transactions dans l’application officielle. Ne vous fiez pas uniquement à une capture d’écran.</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="scam-card reveal">
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+                  alt="Personne recevant une alerte bancaire sur son smartphone"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80';"
+                />
+                <figcaption>Source: Unsplash</figcaption>
+              </figure>
+              <div class="card-body">
+                <h3>Faux messages bancaires</h3>
+                <p>
+                  Un message demande de confirmer son compte bancaire à travers un lien suspect.
+                </p>
+                <div class="tip-box">
+                  <strong>Conseil</strong>
+                  <span>Ne communiquez jamais votre code PIN, votre mot de passe ou votre code OTP à travers un lien reçu par message.</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="scam-card reveal">
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80"
+                  alt="Personne utilisant WhatsApp ou Facebook avec une fausse identité"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80';"
+                />
+                <figcaption>Source: Unsplash</figcaption>
+              </figure>
+              <div class="card-body">
+                <h3>Usurpation d’identité</h3>
+                <p>
+                  Un escroc utilise la photo et le nom d’une personne connue pour demander de l’argent à ses contacts.
+                </p>
+                <div class="tip-box">
+                  <strong>Conseil</strong>
+                  <span>Appelez directement la personne sur un numéro déjà connu avant d’envoyer de l’argent.</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="scam-card reveal">
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+                  alt="Jeune diplômé congolais consultant une annonce d'emploi sur son téléphone"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80';"
+                />
+                <figcaption>Source: Unsplash</figcaption>
+              </figure>
+              <div class="card-body">
+                <h3>Faux recrutements et offres d’emploi</h3>
+                <p>
+                  Des personnes promettent un emploi rapide en échange de frais de dossier ou d’informations personnelles.
+                </p>
+                <div class="tip-box">
+                  <strong>Conseil</strong>
+                  <span>Vérifiez l’identité de l’entreprise et méfiez-vous des paiements exigés pour obtenir un emploi.</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="analyseur" class="section">
+        <div class="container analyzer-wrap reveal">
+          <div class="section-heading left">
+            <span class="eyebrow accent">Outil de démonstration</span>
+            <h2>Analyseur de liens</h2>
+          </div>
+
+          <div class="analyzer-box">
+            <div class="input-group">
+              <label for="link-input" class="sr-only">Adresse du lien</label>
+              <input
+                id="link-input"
+                type="url"
+                placeholder="https://universite-exemple.invalid/paiement"
+                aria-label="Entrez un lien à analyser"
+              />
+              <button id="analyze-btn" class="btn btn-primary" type="button">ANALYSER MAINTENANT</button>
+            </div>
+
+            <div id="loader" class="loader hidden" aria-live="polite">
+              <span class="spinner"></span>
+              <span>Analyse en cours...</span>
+            </div>
+
+            <div id="result-box" class="result-box" aria-live="polite">
+              <div class="result-header">
+                <span class="result-label">Résultat</span>
+                <span id="result-badge" class="result-badge neutral">À analyser</span>
+              </div>
+              <div id="result-message" class="result-message">
+                Entrez un lien pour consulter les premiers indicateurs de risque.
+              </div>
+              <ul id="result-reasons" class="result-reasons"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="reflexes" class="section section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow accent">Les bons réflexes</span>
+            <h2>7 réflexes pour éviter les arnaques sur Internet</h2>
+          </div>
+
+          <div class="tips-grid">
+            <article class="tip-card reveal">
+              <div class="icon-wrap">01</div>
+              <h3>Vérifiez toujours l’adresse du site avant de cliquer.</h3>
+            </article>
+            <article class="tip-card reveal">
+              <div class="icon-wrap">02</div>
+              <h3>Ne partagez jamais votre code PIN ou votre code OTP.</h3>
+            </article>
+            <article class="tip-card reveal">
+              <div class="icon-wrap">03</div>
+              <h3>Ne payez pas pour recevoir un cadeau prétendument gratuit.</h3>
+            </article>
+            <article class="tip-card reveal">
+              <div class="icon-wrap">04</div>
+              <h3>Ne faites pas confiance à une capture d’écran de paiement sans vérifier votre compte.</h3>
+            </article>
+            <article class="tip-card reveal">
+              <div class="icon-wrap">05</div>
+              <h3>Méfiez-vous des messages qui vous mettent sous pression.</h3>
+            </article>
+            <article class="tip-card reveal">
+              <div class="icon-wrap">06</div>
+              <h3>Vérifiez l’identité de la personne avant d’envoyer de l’argent.</h3>
+            </article>
+            <article class="tip-card reveal">
+              <div class="icon-wrap">07</div>
+              <h3>Évitez de télécharger des fichiers provenant de sources inconnues.</h3>
+            </article>
+          </div>
+
+          <div class="check-grid">
+            <div class="check-box reveal">
+              <h3>CE QU’IL FAUT FAIRE</h3>
+              <ul>
+                <li>Vérifier les liens.</li>
+                <li>Utiliser les plateformes officielles.</li>
+                <li>Activer la double authentification.</li>
+                <li>Protéger ses mots de passe.</li>
+                <li>Signaler les tentatives d’arnaque.</li>
+              </ul>
+            </div>
+
+            <div class="check-box danger-box reveal">
+              <h3>CE QU’IL NE FAUT PAS FAIRE</h3>
+              <ul>
+                <li>Cliquer sur tous les liens reçus.</li>
+                <li>Partager son code secret.</li>
+                <li>Envoyer de l’argent à un inconnu sous pression.</li>
+                <li>Communiquer ses informations bancaires.</li>
+                <li>Installer des applications inconnues.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow accent">Comment nous vous protégeons</span>
+            <h2>Comment CYBERGUARD SCAN vous protège</h2>
+          </div>
+
+          <div class="process-grid">
+            <div class="process-step reveal">
+              <div class="step-no">1</div>
+              <h3>Vous recevez un lien suspect.</h3>
+              <p>Un message, un SMS ou un appel vous pousse à agir vite.</p>
+            </div>
+            <div class="process-step reveal">
+              <div class="step-no">2</div>
+              <h3>Vous copiez ce lien dans CYBERGUARD SCAN.</h3>
+              <p>Le système vérifie plusieurs indicateurs clés en quelques secondes.</p>
+            </div>
+            <div class="process-step reveal">
+              <div class="step-no">3</div>
+              <h3>Notre système examine plusieurs indicateurs.</h3>
+              <p>Le domaine est comparé à des services institutionnels de démonstration et à des signaux connus.</p>
+            </div>
+            <div class="process-step reveal">
+              <div class="step-no">4</div>
+              <h3>Vous recevez un résultat expliqué.</h3>
+              <p>Des conseils clairs vous aident à décider avant de poursuivre.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="institutions" class="section section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow accent">Données de démonstration</span>
+            <h2>Reconnaître les vrais domaines institutionnels.</h2>
+          </div>
+
+          <div class="institution-grid">
+            <div class="institution-card reveal">
+              <h3>Universités</h3>
+              <ul>
+                <li>universite-rdc.example <span class="badge confirmed">Domaine confirmé</span></li>
+                <li>faculte-kinshasa.demo <span class="badge pending">En attente de vérification</span></li>
+                <li>campus-demo.invalid <span class="badge demo">Domaine de démonstration</span></li>
+              </ul>
+            </div>
+
+            <div class="institution-card reveal">
+              <h3>Banques</h3>
+              <ul>
+                <li>bankcongo.example <span class="badge confirmed">Domaine confirmé</span></li>
+                <li>banque-rcd.demo <span class="badge pending">En attente de vérification</span></li>
+                <li>secure-bank.invalid <span class="badge demo">Domaine de démonstration</span></li>
+              </ul>
+            </div>
+
+            <div class="institution-card reveal">
+              <h3>Institutions publiques</h3>
+              <ul>
+                <li>gouvernement-rdc.example <span class="badge confirmed">Domaine confirmé</span></li>
+                <li>etat-rdc.demo <span class="badge pending">En attente de vérification</span></li>
+                <li>public-service.invalid <span class="badge demo">Domaine de démonstration</span></li>
+              </ul>
+            </div>
+
+            <div class="institution-card reveal">
+              <h3>Entreprises</h3>
+              <ul>
+                <li>mtnrdc.example <span class="badge confirmed">Domaine confirmé</span></li>
+                <li>orange-rdc.demo <span class="badge pending">En attente de vérification</span></li>
+                <li>offre-emploi.invalid <span class="badge demo">Domaine de démonstration</span></li>
+              </ul>
+            </div>
+
+            <div class="institution-card reveal">
+              <h3>Services de paiement</h3>
+              <ul>
+                <li>pay-rdc.example <span class="badge confirmed">Domaine confirmé</span></li>
+                <li>paiement-rapide.demo <span class="badge pending">En attente de vérification</span></li>
+                <li>paiement-urgence.invalid <span class="badge demo">Domaine de démonstration</span></li>
+              </ul>
+            </div>
+
+            <div class="institution-card reveal">
+              <h3>Opérateurs Mobile Money</h3>
+              <ul>
+                <li>momo-rdc.example <span class="badge confirmed">Domaine confirmé</span></li>
+                <li>airtel-money.demo <span class="badge pending">En attente de vérification</span></li>
+                <li>argent-urgent.invalid <span class="badge demo">Domaine de démonstration</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="signaler" class="section">
+        <div class="container report-layout">
+          <div class="report-copy reveal">
+            <span class="eyebrow accent">Aidez à protéger la communauté</span>
+            <h2>Signalez une arnaque</h2>
+            <p>
+              Décrivez une tentative d’arnaque pour contribuer à la sensibilisation en ligne. Pour cette version, les signalements sont enregistrés temporairement dans le navigateur.
+            </p>
+            <div class="report-note">
+              <strong>Architecture prévue :</strong>
+              <span>Les données peuvent être exportées ou stockées dans MySQL lors d’une prochaine version.</span>
+            </div>
+          </div>
+
+          <form id="report-form" class="report-form reveal">
+            <label>
+              Adresse du lien suspect
+              <input type="url" id="report-link" placeholder="https://cadeau-gratuit.invalid" required />
+            </label>
+
+            <label>
+              Catégorie de l’arnaque
+              <select id="report-category" required>
+                <option value="">Choisir une catégorie</option>
+                <option value="Paiement universitaire">Paiement universitaire</option>
+                <option value="Gain et cadeau">Gain et cadeau</option>
+                <option value="Mobile Money">Mobile Money</option>
+                <option value="Banque">Banque</option>
+                <option value="Usurpation d’identité">Usurpation d’identité</option>
+                <option value="Recrutement">Recrutement</option>
+              </select>
+            </label>
+
+            <label>
+              Description
+              <textarea id="report-description" rows="4" placeholder="Décrivez ce que vous avez reçu ou remarqué." required></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-primary">Signaler ce lien</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section awareness-banner">
+        <div class="container banner-inner reveal">
+          <div class="banner-photo">
+            <img
+              src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80"
+              alt="Plusieurs jeunes Africains regardant leurs téléphones ensemble"
+              loading="lazy"
+              onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80';"
+            />
+          </div>
+          <div class="banner-copy">
+            <h2>La cybersécurité est l’affaire de tous. Un internaute informé est un internaute mieux protégé.</h2>
+            <a href="#analyseur" class="btn btn-primary">Je m’engage à vérifier avant de cliquer.</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">C</span>
+            <span>
+              <strong>CYBERGUARD</strong>
+              <small>SCAN</small>
+            </span>
+          </div>
+          <p>CYBERGUARD RDC</p>
+          <p class="tagline">« Vérifions avant de cliquer ! »</p>
+        </div>
+
+        <div>
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="#arnaques">Arnaques</a></li>
+            <li><a href="#analyseur">Analyseur</a></li>
+            <li><a href="#reflexes">Réflexes</a></li>
+            <li><a href="#institutions">Institutions</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="mailto:contact@cyberguard-scan.demo">contact@cyberguard-scan.demo</a></li>
+            <li><a href="tel:+243000000000">+243 000 000 000</a></li>
+            <li>Kinshasa, République Démocratique du Congo</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-meta">
+          <span>Prototype développé dans le cadre du Hack4Trust 2026.</span>
+          <span>Les analyses fournissent des indications de risque et ne garantissent pas la sécurité absolue d’un site.</span>
+        </div>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
